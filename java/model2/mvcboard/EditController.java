@@ -91,7 +91,7 @@ public class EditController extends HttpServlet {
 
 		if (result == 1) {
 			session.removeAttribute("pass");
-			resp.sendRedirect("../ch14/view.do?idx=" + idx);
+			JSFunction.alertLocation(resp, "수정이 완료되었습니다.", "../ch14/view.do?idx=" + idx);
 		} else {
 			JSFunction.alertLocation(resp, "비밀번호 검증을 다시 진행해주세요.", "../ch14/view.do?idx=");
 		}

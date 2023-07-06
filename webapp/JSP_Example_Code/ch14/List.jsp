@@ -13,7 +13,10 @@ a {
 </style>
 </head>
 <body>
-	<h2>파일 첨부형 게시판 - 목록 보기(List)</h2>
+	<h2>
+		<a href="../ch14/list.do" style="text-decoration: none; color: black;">파일
+			첨부형 게시판 - 목록 보기(List)</a>
+	</h2>
 
 	<form method="get">
 		<table border="1" width="90%">
